@@ -44,6 +44,7 @@ const onCloseModalClick = e => {
     modalImgRef.src = '';
     modalImgRef.alt = '';
   }
+  
 };
 
 galleryListRef.addEventListener('click', onOpenModalClick);
